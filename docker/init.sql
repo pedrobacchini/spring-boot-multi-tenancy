@@ -1,0 +1,1 @@
+CREATE DATABASE "spring-multi-tenancy";
