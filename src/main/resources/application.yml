@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: test
+  jpa:
+    properties:
+      hibernate:
+        ejb:
+          interceptor: com.example.service.CustomEmptyInterceptor

@@ -19,13 +19,13 @@ import java.util.UUID;
 @FilterDef(name = "tenantFilter", parameters = {@ParamDef(name = "tenantId", type = "string")})
 @Filter(name = "tenantFilter", condition = "tenant_id = :tenantId")
 public class Employee implements TenantSupport {
-  @Id
-  @GeneratedValue
-  private UUID id;
+    @Id
+    @GeneratedValue
+    private UUID id;
 
-  private String firstName;
+    private String firstName;
 
-  private String lastName;
+    private String lastName;
 
-  private String tenantId;
+    private String tenantId;
 }
